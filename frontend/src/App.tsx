@@ -18,7 +18,7 @@ function App() {
     useEffect(fetchTodos, [])
 
     if (!todos) {
-        return "Lade..."
+        return "Lade.."
     }
 
     return (
